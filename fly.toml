@@ -15,3 +15,8 @@ primary_region = "mad"
 [[statics]]
   guest_path = "/app/public"
   url_prefix = "/"
+
+[mounts]
+  source="juroga_test_sql3_db"
+  destination="/mnt/juroga_test_sql3_db"
+
